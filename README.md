@@ -1,4 +1,4 @@
-# Arduino temperature Sensor for zabbix #
+# Temperature and humidity sensor for zabbix using arduino #
 
 # Wiring #
 
