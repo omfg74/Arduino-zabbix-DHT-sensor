@@ -1,5 +1,5 @@
 # Arduino temperature Sensor for zabbix #
 
-# WIRING #
+# Wiring #
 
 # 3D Case #
