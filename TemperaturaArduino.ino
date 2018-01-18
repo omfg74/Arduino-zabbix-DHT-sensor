@@ -9,8 +9,12 @@ String hostname = "nuinf-temp01";
 #define DHTPIN 2
 #define DHTYPE DHT11
 
+#define ZABBIXPING 1 //The default value for zabbix's agent protocol
+#define ZABBIXPROTOCOL 3.0 //zabbix agent protocol version
+#define CODEVERSION 2.0
+
+#define ITEMS_SIZE  7 
 String items[] = { "agent.ping", "agent.hostname", "agent.version", "dht.temperature", "dht.humidity", "dht.type", "product.version" };
-int itemsSize = 7; 
 
 EthernetServer server = EthernetServer(LISTENPORT);
 
@@ -38,13 +42,13 @@ void loop() {
 
         switch(findId(msg)){
           case 0:
-            server.println("1");
+            server.println(ZABBIXPING);
             break;
           case 1:
             server.println(hostname);
             break;
           case 2:
-            server.println("3.0");
+            server.println(ZABBIXPROTOCOL);
             break;
           case 3:
             server.println(dht.readTemperature());
@@ -56,7 +60,7 @@ void loop() {
             server.println(DHTYPE);
             break;
           case 6:
-            server.println("2.0");
+            server.println(CODEVERSION);
             break;
           default:
             server.println("ZBX_NOTSUPPORTED");
@@ -73,7 +77,7 @@ void loop() {
 
 int findId(String text) {
   int returnValue=-1;
-  for (int i=0; i < itemsSize; i++){
+  for (int i=0; i < ITEMS_SIZE; i++){
     if(items[i].equals(text)){
       returnValue = i; 
     }
