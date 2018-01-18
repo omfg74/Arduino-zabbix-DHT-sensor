@@ -2,20 +2,22 @@
 
 # Wiring #
 
--Arduino Nano + ENC28j60
+- Arduino Nano + ENC28j60
 ![Wiring Diagram](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagram.jpg)
 
--Arduino Uno + w5100 Ethernet shield
+- Arduino Uno + w5100 Ethernet shield
 
+Change ethernet lib from:
 ```
 #!C
 
-Change
 #include <UIPEthernet.h>
+```
+To:
+```
+#!C
 
-to
 #include <Ethernet.h>
-
 ```
  
 # Zabbix Template #
