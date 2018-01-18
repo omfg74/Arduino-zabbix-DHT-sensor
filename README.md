@@ -3,11 +3,12 @@
 # Wiring #
 
 - Arduino Nano + ENC28j60
-![Wiring Diagram](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagram.jpg)
+![Arduino Nano + ENC28j60](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagram.jpg)
 
 - Arduino Uno + w5100 Ethernet shield
+![Arduino Uno + Ethernet shield](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagram.jpg)
 
-Change ethernet lib from:
+To use this code with Arduino uno and ethernet shild, change ethernet lib from:
 ```
 #!C
 
