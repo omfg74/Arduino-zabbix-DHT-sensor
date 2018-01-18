@@ -29,4 +29,7 @@ To:
 [Download Zabbix 3.x Template](https://bitbucket.org/vitorveras/zabbix-dht-sensor-using-arduino/downloads/zbx_Template_Arduino_DHT_Sensor.xml)
 
 # 3D Case #
+
+![3D Case](https://bitbucket.org/vitorveras/zabbix-dht-sensor-using-arduino/downloads/3D_printed_case.jpg)
+
 [Thingverse link](https://www.thingiverse.com/thing:2761584)
