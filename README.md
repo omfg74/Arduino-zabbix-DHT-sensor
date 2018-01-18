@@ -2,12 +2,12 @@
 
 # Wiring #
 
-![Arduino Nano + ENC28j60](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagram.jpg)
+![Arduino Nano + ENC28j60](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagramNano.jpg)
 
 - Arduino Nano + ENC28j60
 
 
-![Arduino Uno + Ethernet shield](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagram.jpg)
+![Arduino Uno + Ethernet shield](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagramUno.jpg)
 
 - Arduino Uno + w5100 Ethernet shield
 
