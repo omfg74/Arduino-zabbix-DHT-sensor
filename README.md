@@ -2,12 +2,12 @@
 
 # Wiring #
 
-![Arduino Nano + ENC28j60](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagramNano.jpg)
+![Arduino Nano + ENC28j60](https://bitbucket.org/vitorveras/zabbix-dht-sensor-using-arduino/downloads/WiringDiagramNano.jpg)
 
 - Arduino Nano + ENC28j60
 
 
-![Arduino Uno + Ethernet shield](https://bitbucket.org/vitorveras/arduino/downloads/WiringDiagramUno.jpg)
+![Arduino Uno + Ethernet shield](https://bitbucket.org/vitorveras/zabbix-dht-sensor-using-arduino/downloads/WiringDiagramUno.jpg)
 
 - Arduino Uno + w5100 Ethernet shield
 
@@ -26,6 +26,6 @@ To:
 ```
  
 # Zabbix Template #
-[Download Zabbix 3.x Template](https://bitbucket.org/vitorveras/arduino/downloads/zbx_Template_Arduino_DHT_Sensor.xml)
+[Download Zabbix 3.x Template](https://bitbucket.org/vitorveras/zabbix-dht-sensor-using-arduino/downloads/zbx_Template_Arduino_DHT_Sensor.xml)
 
 # 3D Case #
